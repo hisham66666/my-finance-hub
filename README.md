@@ -1,127 +1,120 @@
 Welcome to my Finance Hub
 
-A web-based Personal Finance Management System developed using PHP and MySQL.
-This application allows users to securely manage income and expenses and monitor their financial summary in a structured way.
+# Personal Finance Tracker
+
+A modern web-based Personal Finance Tracker built using React and TypeScript.
+This application provides a clean and responsive interface for managing income and expenses.
 
 ---
 
 ## 📌 Project Overview
 
-**My Finance Hub** is designed to help users:
+Personal Finance Tracker is designed to help users:
 
-* Track daily income and expenses
-* Categorize transactions
-* View monthly financial summaries
-* Maintain secure user authentication
+* Track income and expenses
+* Categorize financial transactions
+* Monitor financial summaries
+* Use a responsive and modern interface
 
-This project was developed as part of a Final Year Software Engineering course.
+This project demonstrates frontend architecture, state management, and UI design using modern web technologies.
 
 ---
 
 ## 🛠 Technologies Used
 
-* HTML5
-* CSS3
-* JavaScript
-* Bootstrap 5
-* PHP (Core PHP)
-* MySQL
-* XAMPP (Apache & MySQL)
-
----
-
-## 🚀 How to Run the Project Locally
-
-### Step 1: Clone the Repository
-
-```sh
-git clone https://github.com/hisham66666/my-finance-hub.git
-```
-
-### Step 2: Move to XAMPP htdocs
-
-Copy the project folder into:
-
-```
-xampp/htdocs/
-```
-
-### Step 3: Start XAMPP
-
-* Start Apache
-* Start MySQL
-
-### Step 4: Create Database
-
-1. Open **phpMyAdmin**
-2. Create a database named:
-
-```
-finance_tracker
-```
-
-3. Import the provided SQL file (if included).
-
-### Step 5: Open in Browser
-
-```
-http://localhost/my-finance-hub/
-```
-
----
-
-## 🔐 Core Features
-
-* User Registration & Login
-* Secure Password Hashing
-* Session-Based Authentication
-* Add / Edit / Delete Income
-* Add / Edit / Delete Expenses
-* Monthly Financial Summary Dashboard
-* Responsive Bootstrap Interface
+* React
+* TypeScript
+* Vite
+* Tailwind CSS
+* ESLint
 
 ---
 
 ## 📂 Project Structure
 
 ```
-my-finance-hub/
+personal-finance-tracker/
 │
-├── config/
-├── auth/
-├── includes/
-├── assets/
-├── dashboard.php
-├── income.php
-├── expense.php
-├── summary.php
-└── index.php
+├── public/
+├── src/
+│   ├── components/
+│   ├── pages/
+│   ├── hooks/
+│   └── main.tsx
+│
+├── index.html
+├── package.json
+├── vite.config.ts
+├── tailwind.config.ts
+└── tsconfig.json
 ```
 
 ---
 
-## 🧪 Testing
+## 🚀 Getting Started
 
-The system has been tested for:
+### 1️⃣ Clone the Repository
 
-* Authentication validation
-* CRUD operations
-* Data consistency
-* Monthly summary calculations
+```sh
+git clone https://github.com/hisham66666/my-finance-hub.git
+```
+
+### 2️⃣ Navigate to Project Folder
+
+```sh
+cd my-finance-hub
+```
+
+### 3️⃣ Install Dependencies
+
+```sh
+npm install
+```
+
+### 4️⃣ Run Development Server
+
+```sh
+npm run dev
+```
+
+The app will start on:
+
+```
+http://localhost:5173
+```
+
+---
+
+## 🔐 Features
+
+* Modern responsive UI
+* Component-based architecture
+* Fast development using Vite
+* Clean and maintainable code structure
+* Type safety with TypeScript
+
+---
+
+## 🧪 Development Tools
+
+* ESLint for code quality
+* Tailwind CSS for styling
+* Vite for fast bundling and hot reload
 
 ---
 
 ## 📈 Future Improvements
 
-* Data visualization charts
-* Expense filtering by date
-* Export functionality
+* Backend integration
+* Persistent database storage
+* User authentication
+* Advanced financial analytics
 
 ---
 
 ## 📄 License
 
-This project is developed for academic and educational purposes.
+This project is developed for educational and demonstration purposes.
 
-
+---
 
