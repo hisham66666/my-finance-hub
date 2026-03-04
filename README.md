@@ -1,73 +1,127 @@
-# Welcome to your Lovable project
+Welcome to my Finance Hub
 
-## Project info
+A web-based Personal Finance Management System developed using PHP and MySQL.
+This application allows users to securely manage income and expenses and monitor their financial summary in a structured way.
 
-**URL**: https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID
+---
 
-## How can I edit this code?
+## 📌 Project Overview
 
-There are several ways of editing your application.
+**My Finance Hub** is designed to help users:
 
-**Use Lovable**
+* Track daily income and expenses
+* Categorize transactions
+* View monthly financial summaries
+* Maintain secure user authentication
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and start prompting.
+This project was developed as part of a Final Year Software Engineering course.
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## 🛠 Technologies Used
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+* HTML5
+* CSS3
+* JavaScript
+* Bootstrap 5
+* PHP (Core PHP)
+* MySQL
+* XAMPP (Apache & MySQL)
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🚀 How to Run the Project Locally
+
+### Step 1: Clone the Repository
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
+git clone https://github.com/hisham66666/my-finance-hub.git
 ```
 
-**Edit a file directly in GitHub**
+### Step 2: Move to XAMPP htdocs
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+Copy the project folder into:
 
-**Use GitHub Codespaces**
+```
+xampp/htdocs/
+```
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+### Step 3: Start XAMPP
 
-## What technologies are used for this project?
+* Start Apache
+* Start MySQL
 
-This project is built with:
+### Step 4: Create Database
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+1. Open **phpMyAdmin**
+2. Create a database named:
 
-## How can I deploy this project?
+```
+finance_tracker
+```
 
-Simply open [Lovable](https://lovable.dev/projects/REPLACE_WITH_PROJECT_ID) and click on Share -> Publish.
+3. Import the provided SQL file (if included).
 
-## Can I connect a custom domain to my Lovable project?
+### Step 5: Open in Browser
 
-Yes, you can!
+```
+http://localhost/my-finance-hub/
+```
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+## 🔐 Core Features
+
+* User Registration & Login
+* Secure Password Hashing
+* Session-Based Authentication
+* Add / Edit / Delete Income
+* Add / Edit / Delete Expenses
+* Monthly Financial Summary Dashboard
+* Responsive Bootstrap Interface
+
+---
+
+## 📂 Project Structure
+
+```
+my-finance-hub/
+│
+├── config/
+├── auth/
+├── includes/
+├── assets/
+├── dashboard.php
+├── income.php
+├── expense.php
+├── summary.php
+└── index.php
+```
+
+---
+
+## 🧪 Testing
+
+The system has been tested for:
+
+* Authentication validation
+* CRUD operations
+* Data consistency
+* Monthly summary calculations
+
+---
+
+## 📈 Future Improvements
+
+* Data visualization charts
+* Expense filtering by date
+* Export functionality
+
+---
+
+## 📄 License
+
+This project is developed for academic and educational purposes.
+
+
+
